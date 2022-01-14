@@ -5,7 +5,7 @@
         <div v-html="$md.render(welcomeText)" class="home__welcome markdown" />
 
         <div class="mb-12 xl:mb-0">
-          <h4 v-if="isSignedUp">Thank you - we'll be in touch shortly.</h4>
+          <h4 v-if="isSignedUp">Obrigado - nós entraremos em contato em breve.</h4>
 
           <form
             v-else
@@ -20,7 +20,7 @@
               class="appearance-none mb-36 bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none"
               type="text"
               name="email"
-              placeholder="your@email.com"
+              placeholder="seuMelhhorEmail@email.com"
               aria-label="Email address"
             />
 
@@ -28,7 +28,7 @@
               class="flex-shrink-0 bg-blue-500 hover:bg-blue-700 border-blue-500 hover:border-blue-700 text-sm border-4 text-white py-1 px-2 rounded"
               type="submit"
             >
-              Sign Up
+              Cadastrar
             </button>
           </form>
         </div>
